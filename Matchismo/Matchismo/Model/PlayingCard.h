@@ -6,8 +6,14 @@
 //  Copyright (c) 2014 csst. All rights reserved.
 //
 
-#ifndef Matchismo_PlayingCard_h
-#define Matchismo_PlayingCard_h
+#import "Card.h"
 
+@interface PlayingCard : Card
 
-#endif
+@property (nonatomic, strong) NSString *suit;
+@property (nonatomic) NSUInteger rank;
+
++ (NSArray *) validSuits;
++ (NSUInteger) maxRank;
+
+@end

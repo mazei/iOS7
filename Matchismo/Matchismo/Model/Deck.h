@@ -6,8 +6,13 @@
 //  Copyright (c) 2014 csst. All rights reserved.
 //
 
-#ifndef Matchismo_Deck_h
-#define Matchismo_Deck_h
+#import <Foundation/Foundation.h>
+#import "Card.h"
 
+@interface Deck : NSObject
 
-#endif
+- (void) addCard:(Card *)card atTop:(BOOL)atTop;
+- (void) addCard:(Card *)card;
+- (Card *) drawRandomCard;
+
+@end

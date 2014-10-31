@@ -6,8 +6,9 @@
 //  Copyright (c) 2014 csst. All rights reserved.
 //
 
-#ifndef Matchismo_PlayingCardGameViewController_h
-#define Matchismo_PlayingCardGameViewController_h
+#import <Foundation/Foundation.h>
+#import "ViewController.h"
 
+@interface PlayingCardGameViewController : ViewController
 
-#endif
+@end

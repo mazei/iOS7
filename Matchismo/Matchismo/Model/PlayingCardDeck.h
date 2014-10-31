@@ -6,8 +6,8 @@
 //  Copyright (c) 2014 csst. All rights reserved.
 //
 
-#ifndef Matchismo_PlayingCardDeck_h
-#define Matchismo_PlayingCardDeck_h
+#import "Deck.h"
 
+@interface PlayingCardDeck : Deck
 
-#endif
+@end

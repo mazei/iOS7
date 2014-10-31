@@ -6,4 +6,17 @@
 //  Copyright (c) 2014 csst. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "PlayingCardGameViewController.h"
+#import "PlayingCardDeck.h"
+
+@interface PlayingCardGameViewController()
+
+@end
+
+@implementation PlayingCardGameViewController
+
+- (Deck *) createDeck {
+    return [[PlayingCardDeck alloc] init]; 
+}
+
+@end

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8EB202CA19FF9A6900AE838F /* PlayingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB202C919FF9A6900AE838F /* PlayingCardView.m */; };
 		8EFF22E219FF93430078ECAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF22E119FF93430078ECAD /* main.m */; };
 		8EFF22E519FF93430078ECAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF22E419FF93430078ECAD /* AppDelegate.m */; };
 		8EFF22E819FF93430078ECAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF22E719FF93430078ECAD /* ViewController.m */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8EB202C819FF990E00AE838F /* PlayingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardView.h; sourceTree = "<group>"; };
+		8EB202C919FF9A6900AE838F /* PlayingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardView.m; sourceTree = "<group>"; };
 		8EFF22DC19FF93430078ECAD /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EFF22E019FF93430078ECAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8EFF22E119FF93430078ECAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -81,9 +84,9 @@
 		8EFF22DE19FF93430078ECAD /* SuperCard */ = {
 			isa = PBXGroup;
 			children = (
-				8EFF22E319FF93430078ECAD /* AppDelegate.h */,
-				8EFF22E419FF93430078ECAD /* AppDelegate.m */,
 				8EFF22E619FF93430078ECAD /* ViewController.h */,
+				8EB202C819FF990E00AE838F /* PlayingCardView.h */,
+				8EB202C919FF9A6900AE838F /* PlayingCardView.m */,
 				8EFF22E719FF93430078ECAD /* ViewController.m */,
 				8EFF22E919FF93430078ECAD /* Main.storyboard */,
 				8EFF22EC19FF93430078ECAD /* Images.xcassets */,
@@ -96,6 +99,8 @@
 		8EFF22DF19FF93430078ECAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8EFF22E319FF93430078ECAD /* AppDelegate.h */,
+				8EFF22E419FF93430078ECAD /* AppDelegate.m */,
 				8EFF22E019FF93430078ECAD /* Info.plist */,
 				8EFF22E119FF93430078ECAD /* main.m */,
 			);
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EFF22E819FF93430078ECAD /* ViewController.m in Sources */,
+				8EB202CA19FF9A6900AE838F /* PlayingCardView.m in Sources */,
 				8EFF22E519FF93430078ECAD /* AppDelegate.m in Sources */,
 				8EFF22E219FF93430078ECAD /* main.m in Sources */,
 			);
@@ -412,6 +418,7 @@
 				8EFF230119FF93430078ECAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8EFF230219FF93430078ECAD /* Build configuration list for PBXNativeTarget "SuperCardTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +427,7 @@
 				8EFF230419FF93430078ECAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

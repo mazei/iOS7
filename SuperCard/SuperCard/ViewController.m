@@ -7,9 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "PlayingCardView.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet PlayingCardView *playingCardView;
 @end
 
 @implementation ViewController
@@ -17,11 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    
+//    PlayingCardView *pcv = [[PlayingCardView alloc] init];
+//    pcv.rank = 1;
+//    
+//    NSLog(@"rank is %lu", (unsigned long)pcv.rank);
+    
+    self.playingCardView.suit = @"♥️";
+    self.playingCardView.rank = 13;
 }
 
 @end

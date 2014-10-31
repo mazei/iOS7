@@ -6,8 +6,19 @@
 //  Copyright (c) 2014 csst. All rights reserved.
 //
 
-#ifndef SuperCard_PlayingCardView_h
-#define SuperCard_PlayingCardView_h
+//#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+//@import UIKit;
 
 
-#endif
+@interface PlayingCardView : UIView {
+
+    int a;
+}
+
+//public
+@property (nonatomic) NSUInteger rank;
+@property (nonatomic, strong) NSString *suit;
+@property (nonatomic) BOOL faceUp;
+
+@end

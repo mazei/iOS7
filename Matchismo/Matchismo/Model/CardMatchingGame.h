@@ -6,8 +6,17 @@
 //  Copyright (c) 2014 csst. All rights reserved.
 //
 
-#ifndef Matchismo_CardMatchingGame_h
-#define Matchismo_CardMatchingGame_h
+#import <Foundation/Foundation.h>
+#import "Deck.h"
 
+@interface CardMatchingGame : NSObject
 
-#endif
+@property (nonatomic, readonly) NSInteger score;
+
+// designed initializer
+- (instancetype) initWithCardCount:(NSUInteger)count
+                         usingDeck:(Deck *) deck;
+- (void) chooseCardAtIndex:(NSUInteger)index;
+- (Card *) cardAtIndex:(NSUInteger)index;
+
+@end

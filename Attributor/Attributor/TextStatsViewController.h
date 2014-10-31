@@ -10,4 +10,6 @@
 
 @interface TextStatsViewController : UIViewController
 
+@property (nonatomic, strong) NSAttributedString *textToAnalyze; 
+
 @end
