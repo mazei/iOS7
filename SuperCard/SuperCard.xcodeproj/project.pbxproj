@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8EFF22E219FF93430078ECAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF22E119FF93430078ECAD /* main.m */; };
+		8EFF22E519FF93430078ECAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF22E419FF93430078ECAD /* AppDelegate.m */; };
+		8EFF22E819FF93430078ECAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF22E719FF93430078ECAD /* ViewController.m */; };
+		8EFF22EB19FF93430078ECAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EFF22E919FF93430078ECAD /* Main.storyboard */; };
+		8EFF22ED19FF93430078ECAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EFF22EC19FF93430078ECAD /* Images.xcassets */; };
+		8EFF22F019FF93430078ECAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EFF22EE19FF93430078ECAD /* LaunchScreen.xib */; };
+		8EFF22FC19FF93430078ECAD /* SuperCardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EFF22FB19FF93430078ECAD /* SuperCardTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8EFF22F619FF93430078ECAD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EFF22D419FF93430078ECAD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EFF22DB19FF93430078ECAD;
+			remoteInfo = SuperCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EFF22DC19FF93430078ECAD /* SuperCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFF22E019FF93430078ECAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFF22E119FF93430078ECAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EFF22E319FF93430078ECAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EFF22E419FF93430078ECAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EFF22E619FF93430078ECAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EFF22E719FF93430078ECAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8EFF22EA19FF93430078ECAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8EFF22EC19FF93430078ECAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8EFF22EF19FF93430078ECAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8EFF22F519FF93430078ECAD /* SuperCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EFF22FA19FF93430078ECAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EFF22FB19FF93430078ECAD /* SuperCardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCardTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EFF22D919FF93430078ECAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFF22F219FF93430078ECAD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EFF22D319FF93430078ECAD = {
+			isa = PBXGroup;
+			children = (
+				8EFF22DE19FF93430078ECAD /* SuperCard */,
+				8EFF22F819FF93430078ECAD /* SuperCardTests */,
+				8EFF22DD19FF93430078ECAD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EFF22DD19FF93430078ECAD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF22DC19FF93430078ECAD /* SuperCard.app */,
+				8EFF22F519FF93430078ECAD /* SuperCardTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EFF22DE19FF93430078ECAD /* SuperCard */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF22E319FF93430078ECAD /* AppDelegate.h */,
+				8EFF22E419FF93430078ECAD /* AppDelegate.m */,
+				8EFF22E619FF93430078ECAD /* ViewController.h */,
+				8EFF22E719FF93430078ECAD /* ViewController.m */,
+				8EFF22E919FF93430078ECAD /* Main.storyboard */,
+				8EFF22EC19FF93430078ECAD /* Images.xcassets */,
+				8EFF22EE19FF93430078ECAD /* LaunchScreen.xib */,
+				8EFF22DF19FF93430078ECAD /* Supporting Files */,
+			);
+			path = SuperCard;
+			sourceTree = "<group>";
+		};
+		8EFF22DF19FF93430078ECAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF22E019FF93430078ECAD /* Info.plist */,
+				8EFF22E119FF93430078ECAD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8EFF22F819FF93430078ECAD /* SuperCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF22FB19FF93430078ECAD /* SuperCardTests.m */,
+				8EFF22F919FF93430078ECAD /* Supporting Files */,
+			);
+			path = SuperCardTests;
+			sourceTree = "<group>";
+		};
+		8EFF22F919FF93430078ECAD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8EFF22FA19FF93430078ECAD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EFF22DB19FF93430078ECAD /* SuperCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFF22FF19FF93430078ECAD /* Build configuration list for PBXNativeTarget "SuperCard" */;
+			buildPhases = (
+				8EFF22D819FF93430078ECAD /* Sources */,
+				8EFF22D919FF93430078ECAD /* Frameworks */,
+				8EFF22DA19FF93430078ECAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCard;
+			productName = SuperCard;
+			productReference = 8EFF22DC19FF93430078ECAD /* SuperCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EFF22F419FF93430078ECAD /* SuperCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EFF230219FF93430078ECAD /* Build configuration list for PBXNativeTarget "SuperCardTests" */;
+			buildPhases = (
+				8EFF22F119FF93430078ECAD /* Sources */,
+				8EFF22F219FF93430078ECAD /* Frameworks */,
+				8EFF22F319FF93430078ECAD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EFF22F719FF93430078ECAD /* PBXTargetDependency */,
+			);
+			name = SuperCardTests;
+			productName = SuperCardTests;
+			productReference = 8EFF22F519FF93430078ECAD /* SuperCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EFF22D419FF93430078ECAD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = csst;
+				TargetAttributes = {
+					8EFF22DB19FF93430078ECAD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					8EFF22F419FF93430078ECAD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 8EFF22DB19FF93430078ECAD;
+					};
+				};
+			};
+			buildConfigurationList = 8EFF22D719FF93430078ECAD /* Build configuration list for PBXProject "SuperCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EFF22D319FF93430078ECAD;
+			productRefGroup = 8EFF22DD19FF93430078ECAD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EFF22DB19FF93430078ECAD /* SuperCard */,
+				8EFF22F419FF93430078ECAD /* SuperCardTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EFF22DA19FF93430078ECAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFF22EB19FF93430078ECAD /* Main.storyboard in Resources */,
+				8EFF22F019FF93430078ECAD /* LaunchScreen.xib in Resources */,
+				8EFF22ED19FF93430078ECAD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFF22F319FF93430078ECAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EFF22D819FF93430078ECAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFF22E819FF93430078ECAD /* ViewController.m in Sources */,
+				8EFF22E519FF93430078ECAD /* AppDelegate.m in Sources */,
+				8EFF22E219FF93430078ECAD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EFF22F119FF93430078ECAD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EFF22FC19FF93430078ECAD /* SuperCardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EFF22F719FF93430078ECAD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EFF22DB19FF93430078ECAD /* SuperCard */;
+			targetProxy = 8EFF22F619FF93430078ECAD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8EFF22E919FF93430078ECAD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EFF22EA19FF93430078ECAD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8EFF22EE19FF93430078ECAD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EFF22EF19FF93430078ECAD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EFF22FD19FF93430078ECAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EFF22FE19FF93430078ECAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EFF230019FF93430078ECAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EFF230119FF93430078ECAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8EFF230319FF93430078ECAD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperCard.app/SuperCard";
+			};
+			name = Debug;
+		};
+		8EFF230419FF93430078ECAD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SuperCardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperCard.app/SuperCard";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EFF22D719FF93430078ECAD /* Build configuration list for PBXProject "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFF22FD19FF93430078ECAD /* Debug */,
+				8EFF22FE19FF93430078ECAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EFF22FF19FF93430078ECAD /* Build configuration list for PBXNativeTarget "SuperCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFF230019FF93430078ECAD /* Debug */,
+				8EFF230119FF93430078ECAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8EFF230219FF93430078ECAD /* Build configuration list for PBXNativeTarget "SuperCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EFF230319FF93430078ECAD /* Debug */,
+				8EFF230419FF93430078ECAD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EFF22D419FF93430078ECAD /* Project object */;
+}
